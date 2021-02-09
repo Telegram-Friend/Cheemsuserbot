@@ -58,9 +58,9 @@ async def admin_groups(cat):
 
 async def yt_search(cat):
     try:
-        cat = urllib.parse.quote(cat)
+        cheems = urllib.parse.quote(cat)
         html = urllib.request.urlopen(
-            "https://www.youtube.com/results?search_query=" + cat
+            "https://www.youtube.com/results?search_query=" + cheems
         )
         user_data = re.findall(r"watch\?v=(\S{11})", html.read().decode())
         video_link = []
