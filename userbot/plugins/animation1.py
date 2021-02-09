@@ -82,7 +82,7 @@ async def _(event):
         "`Me: Hello Sir, Please Ban This Telegram Account.`",
         "`Pavel Durov : May I Know Who is This?`",
         f"`Me: Yo Brah, I Am` {DEFAULTUSER} ",
-        "`Pavel Durov : OMG!!! Long time no see, Wassup cat...\nI'll Make Sure That Guy Account Will Get Blocked Within 24Hrs.`",
+        "`Pavel Durov : OMG!!! Long time no see, Wassup cheems...\nI'll Make Sure That Guy Account Will Get Blocked Within 24Hrs.`",
         "`Me: Thanks, See You Later Brah.`",
         "`Pavel Durov : Please Don't Thank Brah, Telegram Is Our's. Just Gimme A Call When You Become Free.`",
         "`Me: Is There Any Issue/Emergency???`",
@@ -116,7 +116,7 @@ async def _(event):
         "------------------>",
         "------>;(^。^)ノ",
         "(￣ー￣) DEAD",
-        "`Targeted user killed by Headshot 😈.😈.😈.😈.😈.😈.😈......`\n '#Sad_Reacts_Online'\n",
+        "`Targeted user killed by 1000000 Bonks.....`\n '#Sad_Reacts_Online'\n",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
@@ -204,7 +204,7 @@ async def _(event):
     if event.fwd_from:
         return
     event = await edit_or_reply(event, "candy")
-    deq = deque(list("🍦🍧🍩🍪🎂🍰🧁🍫🍬🍭"))
+    deq = deque(list("🍦🍧🍩🍪🎂🍰🧁🍫🍬🍭🍨🧁🍡"))
     for _ in range(999):
         await asyncio.sleep(0.4)
         await event.edit("".join(deq))
@@ -231,7 +231,7 @@ async def _(event):
     await asyncio.sleep(0.3)
     await event.edit("🔥🔥🔥")
     await asyncio.sleep(0.3)
-    await event.edit("EVERyBOdy iZ GangSTur UNtIL I ArRivE 🔥🔥🔥")
+    await event.edit("EVERyBOdy iZ GangSTur UNtIL I ArRivE 🔥🔥🔥 ME PrrrOOOOO!!!!")
 
 
 @bot.on(admin_cmd(pattern=f"charging$"))
