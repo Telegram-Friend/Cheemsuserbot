@@ -58,12 +58,12 @@ async def _(event):
         else:
             await edit_or_reply(
                 event,
-                "this user has {} / {} warning, but no reasons for any of them.".format(
+                "this user has {} / {} warning, but no reasons for any of them duh.".format(
                     num_warns, limit
                 ),
             )
     else:
-        await edit_or_reply(event, "this user hasn't got any warnings!")
+        await edit_or_reply(event, "this user hasn't got any warnings! Bonk free boiiii.")
 
 
 @bot.on(admin_cmd(pattern="resetwarns$"))
